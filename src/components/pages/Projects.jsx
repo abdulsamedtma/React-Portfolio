@@ -9,7 +9,7 @@ import project6 from "../../assets/project06.png";
 function Projects() {
   return (
     <section className="max-w-4xl">
-      <h2 className="lg:text-3xl sm:text-2xl text-xl mt-10 mb-7">Projects</h2>
+      <h2 className="lg:text-3xl sm:text-2xl text-xl mt-12 mb-7">Projects</h2>
       <div className="projects-box">
         <ul className="flex flex-wrap">
           <li className="w-full ">

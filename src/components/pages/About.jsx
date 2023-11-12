@@ -1,31 +1,50 @@
 import MainImage from "../../assets/main-bg.jpg";
 
 function About() {
-    return (
-        <section className="flex flex-col justify-center items-center text-center">
-            <div className="inline-block">
-                <img src={MainImage} alt="main image" />
-            </div>
-            <div className="lg:max-w-4xl about-text">
-                <p className="mt-7 lg:text-3xl text-xl font-bold ">
-                    Hello, I&#39;m Abdul n<br />
-                    Web Developer
-                </p>
-                <p className="mt-7">
-                With over a decade of experience as a seasoned logistics professional, Abdul has demonstrated expertise in global logistics management.<br />
-                His extensive background in this field showcases his ability to orchestrate complex supply chain operations efficiently.<br />
-                This hands-on experience, combined with his software engineering skills, uniquely positions Abdul to develop innovative solutions that bridge the gap between logistics and technology, ultimately optimizing global supply chain processes.
-                </p>
-                <p className="mt-7">
-                With a strong commitment to making a meaningful impact through technology, I am an aspiring software engineer currently focused on mastering both front-end and back-end technologies, particularly excelling in web development with expertise in JavaScript, Python, and SQL. In addition to my technical endeavors, I bring a decade of professional experience in global logistics and maritime operations, reflecting my profound leadership and teamwork skills. Tennis, hiking, camping, and a deep appreciation for classical music are my off-screen passions. My enthusiasm for tackling new challenges is the driving force behind my continuous pursuit of mastery across various domains.
-                </p>
-                <p className="mt-7">
-                    <strong className="lg:text-xl">Work Experience </strong><br />
-                    During my professional journey as a logistics expert, I successfully managed intricate global logistics operations, overseeing the seamless movement of goods across international boundaries. My responsibilities included coordinating supply chain processes, ensuring the timely delivery of products, and implementing cost-effective strategies to enhance operational efficiency. This experience not only honed my organizational and problem-solving skills but also instilled in me a deep appreciation for the intersection of logistics and technology. As I transition into the realm of software engineering, I carry with me the invaluable insights gained from a decade in the logistics industry, which continue to inform my innovative approach to creating impactful technological solutions.
-                </p>
-            </div>
-        </section>
-    )
+  return (
+    <section className="flex flex-col justify-center items-center text-center">
+      <div className="inline-block">
+        <img src={MainImage} alt="main image" />
+      </div>
+      <div className="lg:max-w-4xl about-text">
+        <p className="mt-7 lg:text-3xl text-xl font-bold ">
+        Hello World! I'm Abdul, 
+          <br />
+            a full-stack software engineer.
+        </p>
+        <p className="mt-7">
+          I am an aspiring full- stack software engineer with expertise in web
+          development, particularly in JavaScript and Python. With a decade of
+          experience in global logistics and maritime operations, I possess
+          strong leadership and teamwork skills. Beyond work, I enjoy activities
+          like tennis, hiking, camping, and have a deep appreciation for
+          classical music. My transition into software engineering is fueled by
+          a commitment to innovation and creating impactful solutions
+        </p>
+        <p className="mt-7">
+          <strong className="lg:text-xl">Education</strong>
+          <br />
+          With a bachelor's degree in Ports and Shipping Administration and a
+          Full Stack Software Development certification from Washington
+          University, I possess a diverse educational background that combines
+          maritime logistics expertise with comprehensive skills in software
+          development. This unique blend equips me with a robust foundation to
+          navigate the intersection of maritime operations and cutting-edge
+          technology, contributing to innovative solutions in both domains.
+          <br />
+        </p>
+        <p className="mt-7">
+          <strong className="lg:text-xl">Work Experience </strong>
+          <br />
+          Abdul is a highly experienced logistics professional adept at managing
+          complex global logistics operations. With a strong background in
+          supply chain management and software engineering, he is well-equipped
+          to develop innovative solutions bridging the gap between logistics and
+          technology.
+        </p>
+      </div>
+    </section>
+  );
 }
 
 export default About;
