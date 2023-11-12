@@ -1,0 +1,64 @@
+
+/* Reset and Global Styles */
+*,::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #333; /* Dark gray for text */
+  background-color: #fff; /* White background */
+}
+
+:focus {
+  outline: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+form {
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, select {
+  text-transform: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0077b6; /* Dark blue for links */
+  display: inline-block;
+  width: inherit;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #005b8f; /* Slightly darker blue on hover */
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+textarea {
+  resize: none !important;
+}
+
+/* Custom Styles */
+/* Add your custom styles here */
