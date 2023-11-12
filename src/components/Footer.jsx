@@ -17,12 +17,6 @@ function Footer() {
                         <Link to="https://www.linkedin.com/in/abdul-samed-alhassan-3653a02a/" target="_blank" rel="noreferrer">
                             <img src={linkedin} alt="linkedin logo" />
                         </Link>
-                        <li className="w-6 ml-8">
-                        <Link to="https://www.facebook.com/profile.php?id=100068968449406" target="_blank" rel="noreferrer">
-                            <img src={Facebook} alt="Facebook logo" />
-                        </Link>
-                            
-                    </li>
                     </li>
                 </ul>
 
