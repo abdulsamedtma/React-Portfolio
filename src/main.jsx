@@ -6,7 +6,7 @@ import "./index.css"
 
 import App from "./App.jsx"
 import About from "./components/pages/About"
-import Projects from "./components/pages/projects"
+import Projects from "./components/pages/Projects"
 import Contact from "./components/pages/Contact"
 import Resume from "./components/pages/Resume";
 
