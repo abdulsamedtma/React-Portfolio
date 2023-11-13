@@ -5,8 +5,8 @@ function Resume() {
     return (
         <section className="flex flex-col justify-center">
             <p className="text-xl">
-                Here is a copy of my resume<br />
-                Click to download!
+            Click to download a copy of my resume!<br />
+                
             </p>
             <h2 className="mt-5 max-w-">
                 {/* Create a link to download the resume file */}

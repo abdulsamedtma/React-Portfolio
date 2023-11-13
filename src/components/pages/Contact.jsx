@@ -59,7 +59,7 @@ function Contact() {
                 {errorMessage && (
                     <p className="mt-2">{errorMessage}</p>
                 )}
-                <input type="submit" value="Submit" className="block border border-gold rounded-md text-gold hover-bg-gold hover-text-dark duration-500 mt-5 w-32 h-12 cursor-pointer"/>
+                <input type="submit" value="Submit" className="block border border-gold rounded-md text-blue hover:bg-gold hover-text-dark duration-500 mt-5 w-32 h-12 cursor-pointer"/>
             </form>
         </section>
     );
