@@ -4,7 +4,7 @@ function About() {
   return (
     <section className="flex flex-col justify-center items-center text-center">
       <div className="inline-block">
-        <img src={MainImage} alt="main image" />
+        <img src={MainImage} alt="main image" className="profile-Img"/>
       </div>
       <div className="lg:max-w-4xl about-text">
         <p className="mt-7 lg:text-3xl text-xl font-bold ">
