@@ -16,7 +16,7 @@ function Projects() {
             <img
               className="w-full h-48"
               src={project1}
-              alt="The main page of a movie quiz mobile friendly application"
+              alt="The main screen of Moive Ranker with a movie poster and a form to enter a guess"
             />
             <h3 className="mt-3 lg:text-lg font-bold">Moive Ranker</h3>
             <p className="mt-1 text-sm">
@@ -100,7 +100,7 @@ function Projects() {
             <img
               className="w-full h-48"
               src={project4}
-              alt="A table-style schedule list with the current time highlighted in red"
+              alt=" The main screen of Recipe Eats with delicious dessert photos"
             />
             <h3 className="mt-3 lg:text-lg font-bold">Recipe Eats</h3>
             <p className="mt-1 text-sm">
@@ -127,7 +127,7 @@ function Projects() {
             <img
               className="w-full h-48"
               src={project5}
-              alt="The problem is displayed on the screen, and the remaining time is shown on the right"
+              alt="The main screen of Weather dashboard with search area on the left"
             />
             <h3 className="mt-3 lg:text-lg font-bold">Weather Dashboard</h3>
             <p className="mt-1 text-sm">
@@ -149,18 +149,21 @@ function Projects() {
               >
                 View the app
               </Link>
+            </div>
+            <div className="mt-8">
               <li className="w-full mt-8 sm:ml-5">
                 <img
-                  className="w-full h-48"
+                  className="w-full h-48 mt-8"
                   src={project6}
-                  alt="The main screen of Weather dashboard with search area on the left"
+                  alt="The main screen of Work Day Scheduler with time blocks for each hour of the day"
                 />
                 <h3 className="mt-3 lg:text-lg font-bold">
                   Work Day Scheduler
                 </h3>
                 <p className="mt-1 text-sm">
                   Enhance your time management with the Scheduler app, your
-                  perfect workday companion.
+                  perfect workday companion. This will help you to organize your
+                  day and manage your time more effectively.
                 </p>
                 <div className="mt-4">
                   <Link

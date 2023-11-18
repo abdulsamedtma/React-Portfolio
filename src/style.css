@@ -42,7 +42,7 @@ a {
   color: #0077b6; /* Dark blue for links */
   display: inline-block;
   width: inherit;
-  transition: color 0.3s;
+  transition: color 0.2s;
 }
 
 a:hover {
@@ -58,8 +58,10 @@ table {
 .profile-Img {
   display: block;
   width: 75%; 
-  border-radius: 25%;
+  border-radius: 2%;
   height: 25%;
+  margin: 0 auto;
+  margin-top: 25%;
 }
 
 textarea {
