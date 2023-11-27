@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { validEmail } from "../utils/helpers";
+import Swal from "sweetalert2"
 
 function Contact() {
     // State variables to manage form data and error messages
@@ -45,8 +46,19 @@ function Contact() {
             setErrorMessage("Invalid email address");
             return;
         }
+        // Use SweetAlert to display a message to the user
+        Swal.fire({
+            icon: "success",
+            title: "Message sent!",
+            text: "Thank you for your message. I will get back to you as soon as possible.",
+            confirmButtonText: "OK",
+            confirmButtonColor: "#fbbf24",
+        });
 
-        alert("Thank you for submitting the form. I will contact you soon!");
+      // Reset the form data
+        setFormData({ username: "", email: "", message: "" });
+        
+    
     };
 
     return (
@@ -59,7 +71,7 @@ function Contact() {
                 {errorMessage && (
                     <p className="mt-2">{errorMessage}</p>
                 )}
-                <input type="submit" value="Submit" className="block border border-gold rounded-md text-blue hover:bg-gold hover-text-dark duration-500 mt-5 w-32 h-12 cursor-pointer"/>
+                <input type="submit" value="Send" className="block border border-gold rounded-md text-blue hover:bg-gold hover-text-dark duration-500 mt-5 w-32 h-12 cursor-pointer"/>
             </form>
         </section>
     );
