@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-        <footer className="fixed bottom-0 left-0 w-full py-2 bg-dark"> 
+        <footer className="fixed bottom-0 left-0 w-full py-2 bg-gray"> 
             <div className="text-center">
                 <ul className="flex justify-center">
                     <li className="w-7">
@@ -19,7 +19,7 @@ function Footer() {
                     </li>
                 </ul>
 
-                <p className="mt-2.5 text-sm">Made App was with ❤️ by Abdul. ✨ Coding dreams into reality – I'm, your web wizard ✨</p>
+                <p className="mt-2.5 text-sm">This App was with ❤️ by Abdul. ✨ Coding dreams into reality – I'm, your web wizard ✨</p>
             </div>
         </footer>
     );
