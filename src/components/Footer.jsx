@@ -21,8 +21,10 @@ function Footer() {
 
                 <p className="mt-2.5 text-sm">This App was with ❤️ by Abdul. ✨ Coding dreams into reality – I'm, your web wizard ✨</p>
             </div>
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e653d3b8-d8c7-4a3a-95d2-0222a93e9246" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
         </footer>
     );
 }
 
 export default Footer;
+impo
